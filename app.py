@@ -1,8 +1,15 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from bs4 import BeautifulSoup
 
 driver = webdriver.Firefox()
-driver.get('https://www.twitter.com')
+
+# navega para a página do twitter com a pesquisa desejada
+driver.get('https://twitter.com/search?q=drive.google.com&src=typed_query')
+
+# aguarda até que a página esteja totalmente carregada
+driver.implicitly_wait(10)
+
 
 search_box = driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[1]/div[1]/div[1]/div/div/div/div/div[1]/div[2]/div/div/div/form/div[1]/div/div/div/label/div[2]/div/input")
 search_box.send_keys('drive.google.com')
