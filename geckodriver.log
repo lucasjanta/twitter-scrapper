@@ -1086,3 +1086,17 @@ getMutations@resource://devtools/client/fronts/walker.js:313:10
 
 JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
 JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1680994930387	geckodriver	INFO	Listening on 127.0.0.1:54865
+1680994933435	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "54866" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileeNgSDA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680994933791	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680994933795	Marionette	INFO	Listening on port 54917
+Read port: 54917
+WebDriver BiDi listening on ws://127.0.0.1:54866
+1680994933956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileeNgSDA\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:54866/devtools/browser/57e6700a-ee8c-4c61-8c77-2f5005cbbb44
+1680994941484	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
